@@ -119,7 +119,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Add some popup pages]**
+- **[Add calculator features]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
