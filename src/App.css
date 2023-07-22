@@ -6,6 +6,11 @@ body {
   background: linear-gradient(180deg, #362c2c, transparent);
 }
 
+.main-container {
+  display: flex;
+  gap: 40px;
+}
+
 .calculator {
   display: flex;
   justify-content: center;
@@ -43,4 +48,15 @@ button {
 
 .big-btn {
   flex: 0 1 50%;
+}
+
+.quote-container,
+.loading,
+.error {
+  display: flex;
+  justify-content: left;
+  color: #fff;
+  font-size: 22px;
+  align-items: center;
+  max-width: 315px;
 }
