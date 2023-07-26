@@ -1,21 +1,31 @@
 body {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: linear-gradient(180deg, #362c2c, transparent);
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
 }
 
 .main-container {
   display: flex;
-  gap: 40px;
+  gap: 250px;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+.main-container h1 {
+  font-size: 40px;
 }
 
 .calculator {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 315px;
+  max-width: 440px;
   flex-direction: column;
 }
 
@@ -23,7 +33,7 @@ body {
   background-color: gray;
   text-align: right;
   font-size: 50px;
-  width: 301px;
+  width: 425px;
   padding: 7px 7px 14px 7px;
   height: 52px;
   color: #fff;
@@ -54,9 +64,53 @@ button {
 .loading,
 .error {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   color: #fff;
   font-size: 22px;
   align-items: center;
-  max-width: 315px;
+  margin: 15% 5% 0% 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 30px 10px 10px;
+}
+
+.navbar li {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 10px 10px 30px;
+}
+
+.home {
+  margin: 120px 60px;
+  font-size: 24px;
 }
