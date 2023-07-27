@@ -35,7 +35,7 @@ const Calculator = () => {
             <button type="button" onClick={() => handleButtonClick('7')}>7</button>
             <button type="button" onClick={() => handleButtonClick('8')}>8</button>
             <button type="button" onClick={() => handleButtonClick('9')}>9</button>
-            <button type="button" className="color-btn" onClick={() => handleButtonClick('*')}>*</button>
+            <button type="button" className="color-btn" onClick={() => handleButtonClick('x')}>*</button>
             <button type="button" onClick={() => handleButtonClick('4')}>4</button>
             <button type="button" onClick={() => handleButtonClick('5')}>5</button>
             <button type="button" onClick={() => handleButtonClick('6')}>6</button>
