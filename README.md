@@ -52,7 +52,7 @@
 
 > Below is a link to my deployed project.
 
-- [Live Demo Link will be avilable soon](#)
+- [Live Demo Link](https://math-magicians-iqws.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
